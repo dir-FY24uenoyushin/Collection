@@ -7,14 +7,14 @@ public class MultiArraySample {
 
         // 2次元配列へのアクセスと代入
         for (var i = 0; i < matrix.length; i++) {
-            for (var j = 0; j < matrix[i].length; j++) {
+            for (var j = 0; j < matrix[1].length; j++) {
                 matrix[i][j] = i * 3 + j + 1; // 値の代入
             }
         }
 
-        // 2次元配列の要素を表示
+        // 2次元配列の要素を表示\
         for (var i = 0; i < matrix.length; i++) {
-            for (var j = 0; j < matrix[i].length; j++) {
+            for (var j = 0; j < matrix[1].length; j++) {
                 System.out.print(matrix[i][j] + " ");
             }
             System.out.println();

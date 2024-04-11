@@ -17,7 +17,9 @@ public class ArrayListSample {
 
         // 要素の取得
         String firstItem = places.get(0); // 最初の要素を取得
+        String seconedItem = places.get(1);
         System.out.println("1番目の要素（置換前）: " + firstItem);
+        System.out.println("2番目の要素（置換前）: " + seconedItem);
 
         // 要素の変更
         places.set(0, "スウェーデン"); // 最初の要素を置換
@@ -30,13 +32,13 @@ public class ArrayListSample {
 
         // 拡張forループによる取得
         System.out.println("拡張forループによる取得：");
-        for (String place : places) {
-            System.out.println(place);
+        for (String XX : places) {
+            System.out.println(XX);
         }
         
         // forEachとラムダ式による取得
         System.out.println("forEachとラムダ式による取得：");
-        places.forEach((place) -> System.out.println(place));
+        places.forEach((x) -> System.out.println(x));
 
         // サイズの取得
         int size = places.size(); // リストのサイズを取得

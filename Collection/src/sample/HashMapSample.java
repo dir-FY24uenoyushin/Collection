@@ -26,10 +26,10 @@ public class HashMapSample {
         System.out.println("GKの要素（削除前）: " + members.get("GK"));
         members.remove("GK"); // GK要素を削除
         System.out.println("GKの要素（削除後）: " + members.get("GK"));
-
+        
         // 拡張forループによる取得：entrySet
-        for (Map.Entry<String, String> entry : members.entrySet()) {
-            System.out.println("entrySet キー: " + entry.getKey() + ", 値: " + entry.getValue());
+        for (Map.Entry<String, String>xx : members.entrySet()) {
+            System.out.println("entrySet キー: " + xx.getKey() + ", 値: " + xx.getValue());
         }
 
         // 拡張forループによる取得：keySet
